@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="library.gui.BorderLayoutMain">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="5d1ec" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="74f51" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="First Card Test"/>
+            </properties>
+          </component>
+          <component id="9dc01" class="javax.swing.JButton" binding="button1Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button 1"/>
+            </properties>
+          </component>
+          <component id="a83d8" class="javax.swing.JButton" binding="nextCardButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Next Card"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f33ac" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6b944" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Second Card"/>
+            </properties>
+          </component>
+          <component id="78312" class="javax.swing.JButton" binding="button2Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button 2"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
