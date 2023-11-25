@@ -28,6 +28,6 @@ public class Book implements Serializable {
                 ", autor='" + author + '\'' +
                 ", isbn='" + isbn + '\'' +
                 ", ano=" + year +
-                '}';
+                ", disponibilidade=" + (availability ? "Disponível" : "Não disponível") + '}';
     }
 }
