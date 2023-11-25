@@ -7,10 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SaveBooks {
-    public static void main(String[] args) {
+    public static void saveData(List<Book> books) {
         String path = "data/collection.obj";
-
-        List<Book> books = new ArrayList<>();
 
         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(path))) {
             out.writeObject(books);
